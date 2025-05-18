@@ -3,7 +3,7 @@ import { Card, HStack } from '@project-1114/ui-kit';
 import { indicators } from '../const/indicators.ts';
 import { Indicator } from '../../../components/Indicator/Indicator.tsx';
 
-export const IndicatorsPanel: FC = () => {
+export const CtrlsPanel: FC = () => {
     return (
         <Card variant={'outlined'}>
             <HStack align={'center'} gap={'m'}>
